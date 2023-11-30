@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" /> <!-- Adjust the radius for the level of curvature -->
+            <solid android:color="#80FFFFFF" /> <!-- Transparent white background for the glass effect -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/content">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" /> <!-- Adjust the radius for the level of curvature -->
+            <solid android:color="#80FFFFFF" /> <!-- Transparent white background for the glass effect -->
+        </shape>
+    </item>
+</layer-list>
